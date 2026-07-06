@@ -1,6 +1,6 @@
 window.PIXELBOARD_CONFIG = {
   appName: "PixelBoard",
-  version: "0.1.14-alpha",
+  version: "0.1.15-alpha",
   city: "Rugby",
   country: "UK",
   latitude: 52.3709,

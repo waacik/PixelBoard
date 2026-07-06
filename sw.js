@@ -1,4 +1,4 @@
-const CACHE_NAME = "pixelboard-v0.1.14-alpha";
+const CACHE_NAME = "pixelboard-v0.1.15-alpha";
 const ASSETS = [
   "./",
   "./index.html",

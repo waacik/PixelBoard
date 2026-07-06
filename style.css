@@ -663,40 +663,44 @@ body[data-daypart="night"] { --accent: #9dbbff; --warm: #c7d4ff; }
   position: absolute;
   z-index: 2;
   inset: 0;
-  padding: 0 20px;
-  display: grid;
-  place-content: center;
-  justify-items: center;
+  padding: 0 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  transform: translateY(1px);
 }
 
 .timer-display {
   display: block;
-  width: auto;
+  width: 7.4ch;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  font-size: clamp(28px, 3.75vw, 46px);
-  line-height: .96;
-  font-weight: 760;
-  letter-spacing: -0.018em;
+  font-size: clamp(26px, 3.45vw, 42px);
+  line-height: .94;
+  font-weight: 750;
+  letter-spacing: -0.012em;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
   text-shadow: 0 2px 14px rgba(0,0,0,.16);
 }
 
 .timer-display.stopwatch-display {
-  font-size: clamp(23px, 3.05vw, 38px);
-  letter-spacing: -0.01em;
+  width: 8.6ch;
+  font-size: clamp(21px, 2.72vw, 34px);
+  letter-spacing: 0;
 }
 
 .timer-sub-label {
-  margin-top: clamp(7px, .72vw, 10px);
+  margin-top: clamp(10px, .95vw, 14px);
   color: var(--muted-strong);
-  font-size: clamp(9px, .9vw, 12px);
+  font-size: clamp(8.5px, .78vw, 10.5px);
   line-height: 1.1;
   font-weight: 640;
   white-space: nowrap;
+  opacity: .96;
 }
 
 .timer-actions {

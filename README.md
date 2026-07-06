@@ -3,16 +3,13 @@
 Open-source dashboard inspirowany stylem Google Pixel Weather.
 
 ## Wersja
-Aktualna wersja: **v0.1.14-alpha**
+Aktualna wersja: **v0.1.15-alpha**
 
 ## Co zawiera ta poprawka
-- powrót do poprzedniej struktury projektu, bez `.nojekyll`
-- poprawione wyśrodkowanie wartości w kole stopera/minutnika
-- mniejsza czcionka licznika, żeby wyglądał czyściej na tablecie
+- dopracowane wyśrodkowanie tekstu w kole stopera/minutnika
+- zmniejszona czcionka czasu w kole, szczególnie dla trybu stopera
+- większy odstęp między czasem a etykietą „Alarm na końcu”
+- powrót do standardowej struktury projektu, bez `.nojekyll`
 
 ## Aktualizacja GitHub Pages
-Podmień pliki w repozytorium i odśwież stronę z parametrem:
-
-```text
-?v=0114
-```
+Po podmianie plików odśwież stronę z parametrem `?v=0115`, jeśli przeglądarka pokazuje starszą wersję.
