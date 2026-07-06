@@ -1,0 +1,11 @@
+{
+  "name": "PixelBoard",
+  "short_name": "PixelBoard",
+  "description": "Open-source adaptive weather dashboard inspired by modern Pixel-style interfaces.",
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "background_color": "#17191c",
+  "theme_color": "#17191c",
+  "orientation": "any",
+  "icons": []
+}
